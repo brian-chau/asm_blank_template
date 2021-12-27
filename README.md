@@ -2,8 +2,8 @@
 
 To compile and run, use:
 
-> gcc -masm=intel -nostdlib -static <filename>.S -o <filename>-elf<br/>
-> ./<filename>-elf
+> gcc -masm=intel -nostdlib -static filename.S -o filename-elf<br/>
+> ./filename-elf
 
 For example,
 

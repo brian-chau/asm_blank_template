@@ -14,7 +14,7 @@ _start:
     mov r10, 1000             # arg4 of sendfile
     syscall
 
-    mov rax, 60
+    mov rax, 60               # syscall for exit
     syscall
 
 filename:

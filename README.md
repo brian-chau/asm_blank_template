@@ -2,13 +2,13 @@
 
 To compile and run, use:
 
-> gcc -masm=intel -nostdlib -static filename.S -o filename-elf<br/>
-> ./filename-elf
+> gcc -masm=intel -nostdlib -static filename.S -o filename<br/>
+> ./filename
 
 For example,
 
-> gcc -masm=intel -nostdlib -static read_file_and_display_to_screen.S -o read_file_and_display_to_screen-elf<br/>
-> ./read_file_and_display_to_screen
+> gcc -masm=intel -nostdlib -static main.S -o main<br/>
+> ./main
 
 
 For a full list of the system call numbers, function definitions, and registers that are used as parameters, visit the [ChromiumOS website](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/constants/syscalls.md#x86_64-64_bit)

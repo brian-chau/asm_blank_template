@@ -28,8 +28,8 @@ _start:
     xor rsi, rsi              # Zero out the registers
     xor rdx, rdx              # Zero out the registers
     mov rax, 0x28             # syscall for sendfile
-    mov rdi, r13              # arg0 of sendfile = fid from read open
-    mov rsi, r12              # arg1 of sendfile = fid from write open
+    mov rdi, r13              # arg0 of sendfile = fid from write open
+    mov rsi, r12              # arg1 of sendfile = fid from read open
     mov rdx, 0x0              # arg2 of sendfile = offset
     mov r10, 0x3e8            # arg3 of sendfile = size/count
     syscall

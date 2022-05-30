@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/user/repos/linux_assembly'
-gcc -masm=intel -nostdlib -static  -c target/helloWorld.s  -o target/helloWorld.o
-gcc -masm=intel -nostdlib -static  -o exe ./target/helloWorld.o
-echo  'exe' has been compiled
-make: Leaving directory '/home/user/repos/linux_assembly'
- 

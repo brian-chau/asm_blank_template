@@ -12,4 +12,3 @@ _start:
 
 helloworld:
     .string "Hello world!\n"
-    

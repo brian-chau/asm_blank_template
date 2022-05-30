@@ -2,7 +2,9 @@
 
 To compile and run, use:
 
-> make
-> ./main
+```
+make
+./main
+```
 
 Assembly cheat sheet: http://www.jegerlehner.ch/intel/IntelCodeTable.pdf
